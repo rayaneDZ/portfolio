@@ -1,10 +1,6 @@
-# React Express Starter Pack
+# Portfolio
 
-> Create full stack apps with React and Express. Run your client and server with a single command. 
-
-### Redux Version
-This version does not include Redux
-[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
+> Web App Developed Using the MERN stack
 
 ## Quick Start
 
@@ -31,8 +27,8 @@ npm run client
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Rayane Bouthiba
+(http://www.traversymedia.com)
 
 ### Version
 
