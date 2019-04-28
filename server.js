@@ -11,15 +11,6 @@ mongoose.connect('mongodb+srv://rayane:rayane1998@portfolio0-1cdhc.mongodb.net/t
 
 app.use(bodyParser.json());
 
-
-// app.get('/', (req, res) => {
-//   res.send('welcome to my portfolio\'s server');
-// });
-// app.get('/api/test', (req, res) => {
-//   console.log(mongoose.connection.readyState);
-//   res.send('hi testify please');
-// });
-
 app.get('/api/testimonies', (req, res) => {
   Testimony.find()
     .exec()
@@ -68,12 +59,12 @@ app.delete('/api/testimonies/:id', (req, res) => {
     });
 });
 
-// if(process.env.NODE_ENV === "production"){
-//   app.use(express.static('client/build'));
-//   app.get('*', (req, res) => {
-//     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-//   });
-// }
+if(process.env.NODE_ENV === "production"){
+  app.use(express.static('client/build'));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 
 const port = process.env.PORT || 5000;
