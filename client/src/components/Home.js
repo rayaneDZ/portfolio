@@ -6,7 +6,7 @@ const Home = (props) => {
       <div id = "home-container">
         <h1 id="welcome">WELCOME</h1>
         <p id="description">Full-stack Web Developer</p>
-        <img alt="pic of myself" id="image" src='../images/background.JPG'/>
+        <img alt="pic of myself" id="image" src='../images/background.jpg'/>
         <div className="chevron" id="projects-scroll-chevron">
           <h6>See more</h6>
           <p>></p>
