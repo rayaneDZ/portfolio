@@ -1,0 +1,23 @@
+#contact-container{
+  height: 100vh;
+}
+#social-media{
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 50px; 
+}
+#social-media img{
+  width: 100px;
+}
+@media screen and (max-width: 500px) {
+  #social-media{
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px; 
+  }
+}

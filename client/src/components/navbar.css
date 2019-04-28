@@ -1,0 +1,30 @@
+#navbar-container{
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar-text-container{
+  display: flex;
+}
+#navbar-text-container p {
+  color: #000;
+  padding: 10px;
+  transition: background 0.1s ease-in, color 0.1s ease-in;
+}
+#navbar-text-container p:hover{
+  background: #000;
+  color:#ECE9E6;
+  cursor: pointer; 
+}
+
+@media only screen and (max-width: 500px) {
+  #copyright {
+    display: none;
+  }
+  #navbar-container{
+    justify-content: center;
+  }
+}
