@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <link
+      rel="icon"
+      href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-software-augmented-reality-flaticons-lineal-color-flat-icons.png"
+    />
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----------------------------JS text.js extension ---------------------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-----------------------------Font-awseome ---------------------------------------------->
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+    <title>M. Ramzi | Portfolio</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <nav id="nav">
+      <div class="navbar__nav">
+        <div class="navbar__container">
+          <div class="navbar__row">
+            <div class="navbar__logo">
+              <h1 style="color: white">M. Ramzi</h1>
+            </div>
+
+            <div class="navbar__listItem">
+              <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#about">About</a></li>
+                <li class="item"><a href="#summary">Resume</a></li>
+                <li class="item"><a href="#portfolio">Portfolio</a></li>
+                <li class="item"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar__listItem--mobile">
+              <input type="checkbox" id="btnControl" />
+              <label class="navbar__barIcon" for="btnControl"
+                ><i class="fas fa-bars"></i
+              ></label>
+
+              <ul class="mobileList">
+                <li class="mobileItem"><a href="#home">Home</a></li>
+                <li class="mobileItem"><a href="#about">About</a></li>
+                <li class="mobileItem"><a href="#summary">Resume</a></li>
+                <li class="mobileItem"><a href="#portfolio">Portfolio</a></li>
+                <li class="mobileItem"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar__socialItem">
+              <ul>
+                <li class="socialItem">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/mrbouthiba"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                  ><span class="tooltiptext__dr">LinkedIn</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+      <div class="home__Container">
+        <div class="home__bgLayer">
+          <div class="home__Caption">
+            <h3 class="home__intro">Welcome!</h3>
+            <h1 class="home__title" style="text-align: center"></h1>
+            <!-- <h1 class="home__title">I'm Simone Olivia</h1> -->
+            <p class="home__desc">Based in Montréal, Québec</p>
+            <a
+              href="mailto:mohammed.ramzi.bouthiba@outlook.com"
+              class="home__button"
+              >Hire Me</a
+            >
+            <div class="home__arrow--click">
+              <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about">
+      <div class="about__Container">
+        <h2 class="titleBackground">
+          About Me
+          <p class="text__overlap">Know Me More</p>
+        </h2>
+        <div class="about__desc">
+          <div class="about__parag">
+            <h2 class="about__title">
+              I'm <span class="aboutTitle__span">M. Ramzi Bouthiba,</span> a
+              Software Engineer.
+            </h2>
+            <p class="aboutParag__desc">
+              As a computer science master's student at Polytechnique Montréal
+              with a passion for web development, I am eager to embark on a
+              challenging and rewarding internship experience. I have a strong
+              foundation in programming languages such as HTML, CSS, JavaScript,
+              and Python, as well as experience in various web development
+              frameworks including React and Node. I am also experienced with
+              both SQL and NoSQL databases such as PostgreSQL and MongoDB.
+            </p>
+            <p class="aboutParag__desc">
+              I am motivated to expand my skillset and take on new challenges,
+              with a focus on building full stack efficient web applications. I
+              am also open to experience other similar roles in software
+              engineering. Through my coursework and personal projects, I have
+              honed my problem-solving abilities and have a deep appreciation
+              for the value of collaboration and clear communication in
+              achieving project goals. I am excited to leverage my skills and
+              experience to contribute to a dynamic team and develop my career
+              in web development.
+            </p>
+          </div>
+          <div class="about__table">
+            <ul>
+              <li class="aboutTable__list">
+                <b>Name:</b> Mohammed Ramzi Bouthiba
+              </li>
+              <li class="aboutTable__list">
+                <b>Email:</b>
+                <span class="aboutTable__list--active"
+                  >mohammed.ramzi.bouthiba@outlook.com</span
+                >
+              </li>
+              <li class="aboutTable__list"><b>Age:</b> 24</li>
+              <li class="aboutTable__list">
+                <b>From:</b> Montréal, Québec (open to relocation)
+              </li>
+            </ul>
+            <a
+              class="about__button--active"
+              href="./assets/CV_fr_en.pdf"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+
+    <!-- Summary -->
+    <section id="summary">
+      <div class="summary__Container">
+        <h2 class="titleBackground">
+          Summary
+          <p class="text__overlap">Resume</p>
+        </h2>
+
+        <div class="resume__container">
+          <div class="resume__column">
+            <h2 class="resume__title">My Education</h2>
+            <div class="resume__card">
+              <p class="card__year">2016 - 2021</p>
+              <h3 class="card__title">Electrical and Electronic Engineering</h3>
+              <p class="card__subtitle">Boumerdes University</p>
+              <p class="card__desc">
+                relevant courses include: algorithms <br />and data structures,
+                operating systems, <br />computer architecture and computer
+                networks
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">2022 - 2023</p>
+              <h3 class="card__title">Master's Degree</h3>
+              <p class="card__subtitle">Polytechnique Montréal</p>
+              <p class="card__desc">
+                Taking both core and advanced courses <br />such as software
+                architecture and advanced design,<br />
+                and advanced concepts of cloud computing.
+              </p>
+            </div>
+          </div>
+
+          <div class="resume__column">
+            <h2 class="resume__title">Accomplishments and certificats</h2>
+            <div class="resume__card">
+              <p class="card__year">2019</p>
+              <h3 class="card__title">
+                <a
+                  class="nostyle"
+                  href="https://www.coursera.org/account/accomplishments/verify/8ZZ9TGRRR5MW"
+                  target="_blank"
+                  >Computer Networking</a
+                >
+              </h3>
+              <p class="card__subtitle">Google</p>
+              <p class="card__desc">
+                An online course, authorized by Google<br />
+                and proposed through Coursera
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">2020</p>
+              <h3 class="card__title">
+                <a
+                  class="nostyle"
+                  href="https://www.coursera.org/account/accomplishments/verify/WEVAZS2B2KPB?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                  target="_blank"
+                  >Programming Languages</a
+                >
+              </h3>
+              <p class="card__subtitle">University of Washington</p>
+              <p class="card__desc">
+                A MOOC from the University of Washington<br />
+                and offered through Coursera
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="skills__title">My Skills</h2>
+        <div class="resume__container">
+          <div class="skills__column">
+            <ul>
+              <li>HTML, CSS, Javascript</li>
+              <li>React.js, Node.js, Express.js</li>
+              <li>PostgreSQL, MongoDB</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <ul>
+              <li>Java, C, Python</li>
+              <li>Git</li>
+              <li>Amazon Web Services</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <ul>
+              <li>Coding best practices</li>
+              <li>Software testing</li>
+              <li>Software architecture and design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="button__container">
+          <a
+            class="summary__button"
+            href="./assets/CV_fr_en.pdf"
+            target="_blank"
+            >Download CV&nbsp<i class="fa-sharp fa-solid fa-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="portfolio__Container">
+        <h2 class="titleBackground">
+          Portfolio
+          <p class="text__overlap">My Work</p>
+        </h2>
+      </div>
+      <div class="portfolio__gallery">
+        <a
+          href="https://www.github.com/rayanedz/social_network_web_app"
+          target="_blank"
+        >
+          <div class="photo__item">
+            <img
+              class="gallery__photo"
+              src="./assets/img/social-network.png"
+              alt="project 1 image"
+            />
+            <div class="project__desc">
+              <div class="desc__container">
+                <h3 class="project__title">Social Network Web App</h3>
+                <p class="project__category">Web Development</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/rayaneDZ/face_identification_and_recognition"
+          target="_blank"
+        >
+          <div class="photo__item">
+            <img
+              class="gallery__photo"
+              src="./assets/img/face-id.webp"
+              alt="project 4 image"
+            />
+            <div class="project__desc">
+              <div class="desc__container">
+                <h3 class="project__title">Face Identification System</h3>
+                <p class="project__category">Sofware Engineering</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/rayaneDZ/LOG8415-final-project"
+          target="_blank"
+        >
+          <div class="photo__item">
+            <img
+              class="gallery__photo"
+              src="./assets/img/aws.webp"
+              alt="project 2 image"
+            />
+            <div class="project__desc">
+              <div class="desc__container">
+                <h3 class="project__title">
+                  Scaling Databases and Implementing Cloud Patterns
+                </h3>
+                <p class="project__category">DevOps</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact__Container">
+        <h2 class="titleBackground">
+          Contact
+          <p class="text__overlap">Get in Touch</p>
+        </h2>
+
+        <div class="contact__wrap">
+          <div class="contact__data">
+            <p class="contact__text">
+              <span class="address__icon"
+                ><i class="fa-solid fa-phone"></i
+              ></span>
+              (+1) 438 835 9964
+            </p>
+            <p class="contact__text last__parag">
+              <span class="address__icon"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              mohammed.ramzi.bouthiba@outlook.com
+            </p>
+            <div style="display: flex; flex-direction: row">
+              <h2
+                class="contactData__title"
+                style="margin-bottom: 0px; margin-right: 16px"
+              >
+                Follow Me
+              </h2>
+              <ul class="follow__icons">
+                <li class="follow__item">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/mrbouthiba"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <span class="tooltiptext__gh">LinkedIn</span>
+                </li>
+                <li class="follow__item">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.github.com/rayanedz"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <span class="tooltiptext__gh">Github</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- JS text.js extension script ----------------------->
+    <script>
+      var typing = new Typed(".home__title", {
+        strings: [
+          "I'm M. Ramzi",
+          "I'm a grad student in Computer Science",
+          "I'm looking for an internship :)",
+          "Preferably in Web Development :)",
+        ],
+        typeSpeed: 80,
+        backSpeed: 20,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
